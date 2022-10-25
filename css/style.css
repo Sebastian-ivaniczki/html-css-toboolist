@@ -3,18 +3,81 @@
     padding: 0;
     box-sizing: border-box; 
     font-family: Arial, Helvetica, sans-serif;
+}  
+
+/*container*/ 
+
+.container{
+    width: 700px; 
+    
+    background-color: #fff;
+    margin: 0 auto; 
+    height: 50px; 
+    margin-top: 40px;
+   
 } 
+
+.main-contain{
+  padding-left: 20px;
+  padding-top: 40px;
+}
+
+h2{
+    display: inline;
+}
+
+
+
 /*utilities*/  
+
 body{
     background-color: lightgray;
 }
  
-/*generals*/ 
+.tiket{
+    display: inline-block;
+    margin: 1px solid white; 
+    padding: 2px;
+   font-size: smaller; 
+   color: #fff; 
+   border-radius: 10px;  
+   
+   
+
+}
+
+/* postit color*/
+.blue{
+    background-color: rgb(83, 179, 243);
+} 
+.orange{
+    background-color: orange;
+} 
+.green{
+    background-color: rgb(87, 193, 87);
+}
+.purple{
+    background-color: purple;
+}
+.pink{
+    background-color: pink; 
+
+}
+
+.lightgreen{
+    background-color: greenyellow;
+}
+
+/*generals*/  
+
+
+
   #header{
     background-color: #fff; 
     padding: 10px; 
     
-  } 
+  }
+
   h2{
     font-size: normal; 
     vertical-align: middle;
@@ -30,6 +93,7 @@ body{
   #logo{
     vertical-align: middle;
   }
+
   h1{
     display: inline;
     font-size: 40px;
@@ -37,6 +101,8 @@ body{
     font-weight: 800; 
     vertical-align: middle;
   }
+
+  /* main */
   main{
       width: 700px; 
       
@@ -45,52 +111,55 @@ body{
       height: 632px; 
       margin-top: 5px;
   }
+
   .task{
       margin-top: 14px; 
       margin-left: 20px; 
-      background-color: #4c4ce9; 
+      background-color: #3788f1; 
       border-radius: 4px; 
-      padding: 3px;
+      padding: 3px; 
+      border: none; 
+      color: #fff;
   } 
+
+
   .section{
       border-radius: 4px;
-      padding: 3px;
+      padding: 3px; 
+      border: hidden;
   } 
+
+
   .to-do{
     padding-top: 15px; 
     padding-bottom: 15px;
   } 
+
   .not-done{ 
     display: inline-block;
-    border: 1px solid red;
+    border: 1px solid red; 
+    height: 15px;
+    width: 15px;
     border-radius: 50%; 
     color: red;
+   
   } 
+
+
   .done{
     display: inline-block;
     border: 1px solid green;
+    height: 15px;
+    width: 15px;
     border-radius: 50%; 
-    color: green; 
+    color: green;
+    
     
   } 
+
+
   span{
     margin-top: 15px;
-  }
-/*container*/  
-.container{
-    width: 700px; 
     
-    background-color: #fff;
-    margin: 0 auto; 
-    height: 50px; 
-    margin-top: 40px;
-   
-} 
-.main-contain{
-  padding-left: 20px;
-  padding-top: 40px;
-}
-h2{
-    display: inline;
-}
+  }
 
