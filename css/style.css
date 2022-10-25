@@ -15,6 +15,18 @@ body{
     padding: 10px; 
     
   } 
+  h2{
+    font-size: normal; 
+    vertical-align: middle;
+  }
+
+  .tendina{
+    font-size: 12px; 
+    vertical-align: middle;
+  }
+
+
+
   #logo{
     vertical-align: middle;
   }
@@ -30,7 +42,7 @@ body{
       
       background-color: #fff;
       margin: 0 auto; 
-      height: 900px; 
+      height: 632px; 
       margin-top: 5px;
   }
   .task{
