@@ -45,7 +45,24 @@ body{
       padding: 3px;
   } 
   .to-do{
-    padding-top: 15px;
+    padding-top: 15px; 
+    padding-bottom: 15px;
+  } 
+  .not-done{ 
+    display: inline-block;
+    border: 1px solid red;
+    border-radius: 50%; 
+    color: red;
+  } 
+  .done{
+    display: inline-block;
+    border: 1px solid green;
+    border-radius: 50%; 
+    color: green; 
+    
+  } 
+  span{
+    margin-top: 15px;
   }
 /*container*/  
 .container{
@@ -59,7 +76,7 @@ body{
 } 
 .main-contain{
   padding-left: 20px;
-  padding-top: 30px;
+  padding-top: 40px;
 }
 h2{
     display: inline;
