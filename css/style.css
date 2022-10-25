@@ -13,20 +13,39 @@
     background-color: #fff;
     margin: 0 auto; 
     height: 50px; 
-    margin-top: 40px;
+    margin-top: 40px; 
+    border-radius: 5px;
    
 } 
 
 .main-contain{
   padding-left: 20px;
-  padding-top: 40px;
+  padding-top: 40px; 
+  
 }
 
 h2{
     display: inline;
 }
 
+/*buttons*/ 
 
+.task{
+    margin-top: 14px; 
+    margin-left: 20px; 
+    background-color: #3788f1; 
+    border-radius: 4px; 
+    padding: 3px; 
+    border: none; 
+    color: #fff;
+} 
+
+
+.section{
+    border-radius: 4px;
+    padding: 3px; 
+    border: hidden;
+} 
 
 /*utilities*/  
 
@@ -109,32 +128,28 @@ body{
       background-color: #fff;
       margin: 0 auto; 
       height: 632px; 
-      margin-top: 5px;
+      margin-top: 5px; 
+      border-radius: 5px;
   }
 
-  .task{
-      margin-top: 14px; 
-      margin-left: 20px; 
-      background-color: #3788f1; 
-      border-radius: 4px; 
-      padding: 3px; 
-      border: none; 
-      color: #fff;
-  } 
 
-
-  .section{
-      border-radius: 4px;
-      padding: 3px; 
-      border: hidden;
-  } 
 
 
   .to-do{
     padding-top: 15px; 
     padding-bottom: 15px;
   } 
+    
+  
+    
+  
 
+
+  span{
+    margin-top: 15px;
+    
+  }
+/* chek and not chek*/ 
   .not-done{ 
     display: inline-block;
     border: 1px solid red; 
@@ -153,13 +168,5 @@ body{
     width: 15px;
     border-radius: 50%; 
     color: green;
-    
-    
-  } 
 
-
-  span{
-    margin-top: 15px;
-    
-  }
-
+      }
