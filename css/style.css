@@ -153,20 +153,20 @@ body{
   .not-done{ 
     display: inline-block;
     border: 1px solid red; 
-    height: 20px;
-    width: 20px;
+    height: 15px;
+    width: 15px;
     border-radius: 50%; 
     color: red;
-   padding-bottom: 4px;
+   padding-bottom: 20px;
   } 
 
 
   .done{
     display: inline-block;
     border: 1px solid green;
-    height: 20px;
-    width: 20px;
+    height: 15px;
+    width: 15px;
     border-radius: 50%; 
     color: green;
-    
+    padding-bottom: 20px;
       }
